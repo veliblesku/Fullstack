@@ -2,9 +2,9 @@ POST http://localhost:3003/api/blogs/
 Content-Type: application/json
 
 {
-    "title": "pekka",
-    "author": "jore",
-    "url": "10213021a",
-    "id": "5c6b06d07fe7a1b49369ff11",
+    "title": "pekkaaa",
+    "author": "joreee",
+    "url": "10213021aaa",
+    "id": "123214421aa",
     "user": "5c6b1e1b1ec1f3b7ae3f5e62"
 }

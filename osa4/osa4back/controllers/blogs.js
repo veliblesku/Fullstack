@@ -23,7 +23,8 @@ blogsRouter.get('/:id', (request, response, next) => {
 blogsRouter.post('/', async (request, response, next) => {
   const body = request.body
 
-  const user = await User.findById(body.userId)
+  const user = await User.findById(body.user)
+  
   const blog = new Blog({
     title: body.title,
     author: body.author,
